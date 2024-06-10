@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+}
+
+.bio,
+
+.redes-sociales {
+    margin-left: 20px;
+}
+
+.redes-sociales a {
+    color: #333; /* Cambiar el color del texto a negro en redes sociales */
+}
+
+.contacto {
+    margin: 20px;
+}
+
+/* Ajustar el ancho de los elementos de entrada y textarea en la sección de contacto */
+.contacto input,
+.contacto textarea {
+    width: 100%; /* Ancho completo por defecto */
+    max-width: 550px; /* Puedes ajustar el ancho máximo según tus preferencias */
+}
+
+h2 {
+    color: #3498db;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; /* Cambiar el color del texto a blanco barra nav (Iniciio-Experiencia... */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3498db;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}

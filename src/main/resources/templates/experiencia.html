@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Modulo%203/Proyecto-Final/src/main/resources/static/styles.css">
+    <title>Perfil Adrián Sobrevela</title>
+</head>
+<body>
+
+    <header>
+        <img src="adrian_foto.jpeg" alt="Tu Imagen de Perfil">
+        <h1>Adrián Sobrevela</h1>
+        <p>Analista de Datos | Desarrollador Web | Apasionado por la Tecnología</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+                <li><a href="educacion.html">Educación</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bio">
+        <h2>Experiencia</h2>
+        <p>¡Hola! Soy Adrián Sobrevela, un apasionado analista de datos con experiencia en...</p>
+    </section>
+
+    <section class="redes-sociales">
+        <h2>Conéctate conmigo</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/adrian-sobrevela-datanalyst-analistadedatos" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/tu-usuario" target="_blank">Twitter</a></li>
+            <!-- Agrega más enlaces según sea necesario -->
+        </ul>
+    </section>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <p>¡Hablemos! Completa el formulario a continuación para ponerse en contacto conmigo.</p>
+        <form action="procesar-formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Adrián Sobrevela</p>
+    </footer>
+
+</body>
+</html>
